@@ -1,0 +1,12 @@
+def swap(x, y):
+    if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
+        return -1
+
+x, y = y, x
+
+print(f"Swapped values: x = {x}, y = {y}")
+
+result1 = swap("Apple", 10)
+print("Result for ('Apple', 10):", result1)
+
+swap(9, 17)
