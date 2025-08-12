@@ -1,0 +1,14 @@
+Task_1
+def string_reverse(s):
+    if not isinstance(s, str):
+        return None  # or raise an error if desired
+    return s[::-1]
+
+Task_2
+#Scenario1
+result1 = string_reverse("Hello World")
+print("Reversed 'Hello World':", result1)
+
+#Scenario2
+result2 = string_reverse("Python")
+print("Reversed 'Python':", result2)
