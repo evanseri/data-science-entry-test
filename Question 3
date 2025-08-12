@@ -9,7 +9,6 @@ Task_2
 #Scenario1
 result1 = update_dictionary({}, "name", "Alice")
 print("Result 1:", result1)
-
 #Scenario2
 result2 = update_dictionary({"age": 25}, "age", 26)
 print("Result 2:", result2)
