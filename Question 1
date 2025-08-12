@@ -11,6 +11,5 @@ Task_2
 #Scenario1
 result1 = swap("Apple", 10)
 print("Result for ('Apple', 10):", result1)
-
 #Scenario2
 swap(9, 17)
